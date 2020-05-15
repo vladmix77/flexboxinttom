@@ -46,7 +46,7 @@ header .menu a:hover {
 
 main {
   background: #deeafb;
-  padding: 55px 0;
+  padding: 55px 0 80px;
 }
 .technology {
   display: flex;
@@ -142,4 +142,18 @@ main {
   padding: 14px 0;
   box-shadow: 0 0 10px -1px #000;
   margin-top: 15px;
+}
+.cards .card .btn:hover {
+ box-shadow: none;
+ background: #e44d26;
+}
+
+footer {
+  background: #6e78b7;
+  font-size: 21px;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 110px 0 105px;
+  color: #fff;
 }
