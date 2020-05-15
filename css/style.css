@@ -52,6 +52,7 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 60px;
 }
 .technology img {
   width: 360px;
@@ -63,5 +64,30 @@ main {
 }
 .gallery {
   display: flex;
-  
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.gallery img {
+  width: 360px;
+  height: 230px;
+  margin-bottom: 30px;
+}
+
+.news article {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  padding: 20px 25px 15px 7px;
+}
+.news article img {
+  width: 340px;
+  height: 225px;
+  margin-right: 55px;
+}
+.news article {
+  color: #511a99;
+  font-size: 16px;
+}
+.description {
+  width: 760px;
 }
