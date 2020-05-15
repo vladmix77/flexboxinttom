@@ -2,8 +2,8 @@ html {
   box-sizing: border-box;
 }
 *,
-*::after,
-*::before {
+*:after,
+*:before {
   box-sizing: border-box;
 }
 body {
@@ -29,7 +29,7 @@ header .menu a {
   width: 260px;
   background: #d86a43;
   text-align: center;
-  padding: 17px 0;
+  padding: 14px 0;
   border-radius: 8px;
   cursor: pointer;
   color: #fefcfc;
@@ -42,4 +42,26 @@ header .menu a {
 header .menu a:hover {
   box-shadow: none;
   background: #e44d26;
+}
+
+main {
+  background: #deeafb;
+  padding: 55px 0;
+}
+.technology {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.technology img {
+  width: 360px;
+  height: 200px;
+}
+.technology .arrow {
+  width: 41px;
+  height: 22px;
+}
+.gallery {
+  display: flex;
+  
 }
