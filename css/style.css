@@ -144,8 +144,8 @@ main {
   margin-top: 15px;
 }
 .cards .card .btn:hover {
- box-shadow: none;
- background: #e44d26;
+  box-shadow: none;
+  background: #e44d26;
 }
 
 footer {
@@ -156,4 +156,7 @@ footer {
   text-transform: uppercase;
   padding: 110px 0 105px;
   color: #fff;
+}
+footer p {
+  margin: 0;
 }
