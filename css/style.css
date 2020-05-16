@@ -52,7 +52,6 @@ main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 60px;
 }
 .technology img {
   width: 360px;
@@ -66,11 +65,11 @@ main {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-bottom: 60px;
 }
 .gallery img {
   width: 360px;
   height: 230px;
-  margin-bottom: 30px;
 }
 
 .news article {
@@ -100,6 +99,7 @@ main {
 
 .cards {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 .cards .card {
