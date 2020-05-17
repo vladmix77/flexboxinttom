@@ -56,6 +56,7 @@ main {
 .technology img {
   width: 360px;
   height: 200px;
+  margin-bottom: 60px;
 }
 .technology .arrow {
   width: 41px;
@@ -70,6 +71,8 @@ main {
 .gallery img {
   width: 360px;
   height: 230px;
+  height: 100%;
+  padding-top: 25px;
 }
 
 .news article {
