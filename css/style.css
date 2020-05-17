@@ -114,6 +114,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-top: 50px;
   padding-bottom: 15px;
 }
 
